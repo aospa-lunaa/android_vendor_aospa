@@ -257,3 +257,9 @@ PRODUCT_PACKAGES += \
     libwpa_client
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
+
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+# Disable extra StrictMode features on all non-engineering builds
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.strictmode.disable=true
+endif
