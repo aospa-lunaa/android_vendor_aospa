@@ -22,9 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FontGoogleSansLatoOverlay \
     FontHarmonySansOverlay \
-    FontInterOverlay \
     FontManropeOverlay \
-    FontRobotoOverlay \
     FontOnePlusSansOverlay \
     FontOppoSansOverlay \
     FontUrbanistOverlay
