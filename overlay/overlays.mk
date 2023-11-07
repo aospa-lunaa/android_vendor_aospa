@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     FontHarmonySansOverlay \
     FontInterOverlay \
     FontManropeOverlay \
-    FontOnePlusOverlay  \
+    FontOnePlusSansOverlay  \
     FontOppoSansOverlay \
     FontRobotoOverlay \
     FontUrbanistOverlay \
