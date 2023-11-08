@@ -89,6 +89,14 @@ $(call inherit-product, external/google-fonts/lato/fonts.mk)
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
 
+# Global thinLTO - override
+GLOBAL_THINLTO := true
+
+# Global thinLTO
+ifeq ($(GLOBAL_THINLTO),true)
+    $(warning Building with Global ThinLTO)
+endif
+
 # Google - GMS, Pixel, and Mainline Modules
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
